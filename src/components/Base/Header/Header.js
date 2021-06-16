@@ -39,14 +39,16 @@ export default function Header() {
             classNames="NavAnimation"
             unmountOnExit
         >
-            <nav className="Nav">
-            <a href="/">Karma</a>
+          <nav className="Nav">
+            <a href="/karma">Karma</a>
             <a href="/auth">Happiness</a>
-            <a href="/">Relationship</a>
-            <a href="/">Living Life</a>
-            <a href="/">Death</a>
-            <button>About</button>
-            </nav>
+            <a href="/relationship">Relationship</a>
+            <a href="/life">Living Life</a>
+            <a href="/death">Death</a>
+            <a href="/about">
+              <button>About</button>
+            </a>            
+          </nav>
         </CSSTransition>
         <button onClick={toggleNav} className="Burger">
             <img src={require('assets/menu-btn.png').default} className="Menubtn" alt="menubtn" height={50} width={50}/>
