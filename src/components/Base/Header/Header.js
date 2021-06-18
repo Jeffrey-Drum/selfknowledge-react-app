@@ -41,7 +41,7 @@ export default function Header() {
         >
           <nav className="Nav">
             <a href="/karma">Karma</a>
-            <a href="/auth">Happiness</a>
+            <a href="/happiness">Happiness</a>
             <a href="/relationship">Relationship</a>
             <a href="/life">Living Life</a>
             <a href="/death">Death</a>
